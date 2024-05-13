@@ -1,5 +1,5 @@
 # Use OpenJDK 17 as base image alpine
-FROM openjdk:17-jdk-alpine
+FROM openjdk:18-jdk-alpine
 
 # Set the current working directory inside the Docker image
 WORKDIR /app
